@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <ThemeContextProvider>
-          <ThemeProvider>
+          <ThemeProvider>  {/* For making theme context accessible without making layout.js a client component */}
             <div className="container">
               <div className="wrapper">
                 <Navbar />
