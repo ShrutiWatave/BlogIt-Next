@@ -24,8 +24,8 @@ a{
 .dark {
     --bg: rgb(54, 49, 49);
     --bg-soft: rgb(62, 56, 56);
-    --textColor: rgb(247, 239, 239);
-    --textColor-soft: rgb(250, 245, 245);
+    --textColor: rgb(250, 245, 245);
+    --textColor-soft:  rgb(247, 239, 239);
 }
 
 .container{

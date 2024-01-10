@@ -13,7 +13,7 @@ const ThemeToggle = () => {
   return (
     <div className={styles.container } onClick={toggle}
       style={
-        theme === "dark" ? {backgroundColor: "rgb(245, 238, 238)"} : { backgroundColor: "rgb(62, 56, 56)"}
+        theme === "dark" ? {background: "rgb(245, 238, 238)"} : { background: "rgb(62, 56, 56)"}
       }
     >
       <Image src={'/sun.png'} alt="sun" width={15} height={15}/>
