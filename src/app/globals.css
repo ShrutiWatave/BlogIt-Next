@@ -22,8 +22,8 @@ a{
 }
 
 .dark {
-    --bg: rgb(54, 49, 49);
-    --bg-soft: rgb(62, 56, 56);
+    --bg: rgb(40, 43, 49);
+    --bg-soft: rgb(55, 54, 62);
     --textColor: rgb(250, 245, 245);
     --textColor-soft:  rgb(247, 239, 239);
 }
