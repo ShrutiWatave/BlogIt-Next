@@ -9,21 +9,21 @@
 .categories{
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
 .category{
-    flex: 1;
-    border: 1px;
     border-radius: 10px;
+    width: 13%;
     height: 55px;
     text-transform: capitalize;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .Image{
@@ -52,5 +52,31 @@
 
 .style{
     background-color: rgba(88, 146, 169, 0.425);
+}
+
+/* @media screen and (max-width: 1280px) {
+    .category{
+        width: 45%;
+    }
+} */
+@media screen and (max-width: 1240px) {
+    .category{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .category{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .category{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .category{
+        width: 45%;
+    }
 }
 
