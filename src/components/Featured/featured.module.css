@@ -27,7 +27,6 @@
 
 .image{
     object-fit: cover;
-
 }
 
 .textContainer{
@@ -53,4 +52,27 @@
     border-radius: 10px;
     cursor: pointer;
     border: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .title{
+        font-size: 25px;
+    }
+    .imgContainer{
+        position: relative;
+        flex: 1;
+        height: 300px;    
+    }
+    .postTitle{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 20px;
+    }
+    .imgContainer{
+        display: none;
+    }
 }
