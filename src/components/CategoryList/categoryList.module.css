@@ -54,29 +54,19 @@
     background-color: rgba(88, 146, 169, 0.425);
 }
 
-/* @media screen and (max-width: 1280px) {
-    .category{
-        width: 45%;
-    }
-} */
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1280px) {
     .category{
         width: 25%;
     }
 }
 @media screen and (max-width: 1024px) {
     .category{
-        width: 25%;
-    }
-}
-@media screen and (max-width: 768px) {
-    .category{
-        width: 35%;
+        width: 45%;
     }
 }
 @media screen and (max-width: 640px) {
     .category{
-        width: 45%;
+        width: 100%;
     }
 }
 
