@@ -1,0 +1,78 @@
+.items{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imageContainer{
+    flex:1;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.img{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid gainsboro;
+}
+
+.textContainer{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.category{
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    max-width: fit-content;
+    font-weight: 50;
+}
+
+.travel{
+    background-color: rgb(255, 166, 0);
+}
+
+.fashion{
+    background-color: rgb(94, 182, 94);
+}
+
+.food{
+    background-color: rgb(223, 73, 73);
+}
+
+.sports{
+    background-color: cornflowerblue;
+}
+
+.culture{
+    background-color: rgb(231, 122, 177);
+}
+
+.postTitle{
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--textColor-soft);
+
+}
+
+.details{
+    font-size: 11px;
+    color: var(--textColor-soft);
+}
+
+.date{
+    color: gray;
+}
