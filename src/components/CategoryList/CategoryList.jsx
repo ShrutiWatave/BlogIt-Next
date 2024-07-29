@@ -11,8 +11,8 @@ const CategoryList = () => {
       </div>
 
       <div className={styles.categories}>
-        <Link href={`/blog`} className={`${styles.category} ${styles.coding}`}>
-          <Image src="/coding.png" alt="style.png" width={32} height={32} className={styles.Image}/>
+        <Link href={`/blog`} className={`${styles.category} ${styles.sports}`}>
+          <Image src="/sports.png" alt="style.png" width={32} height={32} className={styles.Image}/>
           sports
         </Link>
         <Link href={`/blog`} className={`${styles.category} ${styles.culture}`}>
