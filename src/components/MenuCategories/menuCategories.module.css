@@ -4,13 +4,17 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    /* flex: 50%; */
+
 }
 
 .categoryItem{
-    padding: 5px 10px;
-    font-size: 15px;
+    padding: 10px 25px;
+    font-size: 12px;
     border-radius: 10px;
     font-weight: 100;
+    /* width: 25%;
+    height: 30px; */
 }
 
 .sports{
