@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    /* flex: 50%; */
 
 }
 
@@ -13,8 +12,6 @@
     font-size: 12px;
     border-radius: 10px;
     font-weight: 100;
-    /* width: 25%;
-    height: 30px; */
 }
 
 .sports{

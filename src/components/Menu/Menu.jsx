@@ -12,7 +12,7 @@ const Menu = () => {
       <h1 className={styles.title}>Most popular</h1>
      
         <MenuPosts withImage={false}/>
-
+        
       <h2 className={styles.subTitle}>Choose your topic</h2>
       <h1 className={styles.title}>Categories</h1>
       <MenuCategories/>
