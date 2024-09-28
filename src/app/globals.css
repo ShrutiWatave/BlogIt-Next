@@ -2,7 +2,7 @@
     --bg: white;
     --bg-soft: rgb(245, 238, 238);
     --textColor: black;
-    --textColor-soft: rgb(51, 49, 49);
+    --textColor-soft: rgb(110, 107, 107);
 }
 
 *{
@@ -25,7 +25,7 @@ a{
     --bg: rgb(40, 43, 49);
     --bg-soft: rgb(55, 54, 62);
     --textColor: rgb(250, 245, 245);
-    --textColor-soft:  rgb(247, 239, 239);
+    --textColor-soft:  rgb(159, 156, 156);
 }
 
 .container{
